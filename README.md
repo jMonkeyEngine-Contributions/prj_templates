@@ -9,6 +9,9 @@ basic_3.0:
 basic_3.1:
     url: https://github.com/jMonkeyEngine-Contributions/prj_templates
     branch: basic_3.1
+
+jme3_skel:
+    url: https://github.com/davidB/jme3_skel
 ```
 
 
