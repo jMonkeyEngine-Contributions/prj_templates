@@ -14,11 +14,11 @@ applicationDefaultJvmArgs = []
 repositories {
   mavenLocal()
   jcenter()
-  maven { url "http://updates.jmonkeyengine.org/maven/"}
+  // maven { url "http://updates.jmonkeyengine.org/maven/"} // jme3 SNAPSHOT
 }
 
 
-def jme3 = ["v" : "3.0.10", "g": "com.jme3"]
+def jme3 = ["v" : "3.1.0-alpha2", "g": "org.jmonkeyengine"]
 
 dependencies {
   // jme
