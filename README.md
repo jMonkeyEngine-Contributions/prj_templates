@@ -29,7 +29,7 @@ with download zip (4) (via curl or via your browser)
 
 ```
 curl -O -L https://github.com/jMonkeyEngine-Contributions/project_templates/archive/basic_3.1.zip
-unzip -e basic_3.1.zip
-mv project_templates-basic_3.1 myproject
+unzip -e basic_3.1.zip -d myproject
+cd myproject
 ./gradlew run
 ```
